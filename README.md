@@ -1,5 +1,5 @@
 # freeCodeCamp-HTML-CSS-Projects
-===========================================================================================
+============================================================================
 # Overview
 Welcome strangers! This is my git repo of the HTML/CSS Module projects at freeCodeCamp. I am new so I would love to receive advices and suggestions
 ____________________________________________
