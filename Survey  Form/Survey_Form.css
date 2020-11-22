@@ -1,0 +1,52 @@
+
+body{
+    font-family: Montserrat;
+    background-image: url("background.png");
+    background-position: center;
+}
+
+#header{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.title{
+    margin: 0;
+}
+
+#form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.form_elem{
+    display: flex;
+    flex-direction: column;
+    margin: 2.5%;
+    line-height: 150%;
+}
+
+.input{
+    font-family: Montserrat;
+    font-size: medium;
+    height: 4vh;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: medium medium;
+    border-color: gray;
+}
+
+#text_area    {
+    font-size: large;
+    min-height: 100px;
+}
+
+#submit {
+    width: 80%;
+    height: 2.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
