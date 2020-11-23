@@ -1,34 +1,33 @@
-
-body{
+body {
     font-family: Montserrat;
     background-image: url("background.png");
     background-position: center;
 }
 
-#header{
+#header {
     text-align: center;
     margin-top: 2%;
 }
 
-.title{
+.title {
     margin: 0;
 }
 
-#form{
+#survey-form {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-.form_elem{
+.form_elem {
     display: flex;
     flex-direction: column;
     margin: 2.5%;
     line-height: 150%;
 }
 
-.input{
+.input {
     font-family: Montserrat;
     font-size: medium;
     height: 4vh;
@@ -38,7 +37,7 @@ body{
     border-color: gray;
 }
 
-#text_area    {
+#text_area {
     font-size: large;
     min-height: 100px;
 }
