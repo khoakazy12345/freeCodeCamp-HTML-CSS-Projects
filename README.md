@@ -16,7 +16,8 @@ This is my tribute page for the creator of my favorite and first programming lan
 Thanks to his amazing work, I can take my first steps of the coding journey in the Winter of 2020.
 Thus, I want to create this website as a thank-you to him.
 ## Survey Form
-In progress
+This is my replication of the Google Forms for my MOSCED Calculator Survey. 
+Besides the basic elements, I also tried to customized it better, with more features.
 ## Product Landing Page
 In progress
 ## Tecnical Documentation Page
