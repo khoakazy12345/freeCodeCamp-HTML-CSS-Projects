@@ -10,18 +10,17 @@
         </div>
         <nav id="nav-bar">
             <ul>
-                <a class="active nav_list" href="#home">Home</a>
-                <a class="nav_list" href="#news">News</a>
-                <a class="nav_list" href="#contact">Contact</a>
-                <a class="nav_list" href="#about">About</a>
+                <a class="nav-link" href="#Broken_Rice">Broken Rice</a>
+                <a class="nav-link" href="#Bun_Bo_Hue">Bun Bo Hue</a>
+                <a class="nav-link" href="#Vietnamese_Bread">Vietnamese_Bread</a>
             </ul>
         </nav>
     </header>
     <body>
-        <form id="form">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
             <label id="input_prompt" class="form-elem">Enter your email to get to know our team</label>
-            <input id="input" class="form-elem" type="email" placeholder="Enter your email" required>
-            <button id="submit" class="form-elem" type="submit">Submit</button>
+            <input name="email" id="email" class="form-elem" type="email" placeholder="Enter your email" required>
+            <input id="submit" type="submit" value="Submit" class="btn"/>
         </form>
 
         <div>
@@ -30,7 +29,7 @@
                 <div>
                     <h2 class="food_description_heading">Broken Rice</h2>
                     <p class="food_description">
-                    Cơm Tấm or Com Tam (US: /kʌm təm/; Vietnamese: [kəːm tə̌m]) is a Vietnamese dish made from rice with fractured rice
+                    Cơm Tấm or Com Tam is a Vietnamese dish made from rice with fractured rice
                     grains. Tấm refers to the broken rice grains, while cơm refers to cooked rice. Although there are varied names
                     like cơm tấm Sài Gòn (Saigon-style broken rice), particularly for Saigon, the main ingredients remain the same for
                     most cases.
@@ -42,7 +41,7 @@
                 <div>
                     <h2 class="food_description_heading">Bun Bo Hue</h2>
                     <p class="food_description">
-                        Bún bò Huế (pronounced [ɓun˧˥ ɓɔ˧˩ hwe˧˥]) or bún bò is a popular Vietnamese soup containing rice vermicelli (bún) and
+                        Bun Bo Hue (Hue Beef Noodles) is a popular Vietnamese soup containing rice vermicelli (bún) and
                         beef (bò). Huế is a city in central Vietnam associated with the cooking style of the former royal court.The dish
                         is greatly admired for its balance of spicy, salty, and umami flavors. The predominant flavor is that of lemongrass.
                         Compared to phở or bún riêu, the noodles are thicker and more cylindrical.
@@ -54,21 +53,29 @@
                 <div>
                     <h2 class="food_description_heading">Vietnamese Bread</h2>
                     <p class="food_description">
-                        Bánh mì or banh mi (/ˈbɑːn miː/, /ˈbæn/; Vietnamese: [ɓǎjŋ̟ mî]) is the Vietnamese word for bread. In
-                        Vietnamese cuisine, it also refers to a type of short baguette with thin, crisp crust and soft, airy texture inside that
+                        Bánh mì or banh mi is the Vietnamese word for bread. In Vietnamese cuisine, it also refers to a type of short baguette with thin, crisp crust and soft, airy texture inside that
                         is often split lengthwise and filled with various savory ingredients like a submarine sandwich and served as a meal.
                         Plain banh mi is also eaten as a staple food.
                     </p>
                 </div>
             </div>
         </div>
-
-        <iframe 
-            id="video" 
-            height="315"
-            src="https://www.youtube.com/embed/pkMdNSEX9gM">
-            frameborder="0"
-            allowfullscreen>
+        <div id="video_label">A video of the Youtuber Mark Weins trying Bun Bo Hue</div>
+        <iframe id="video"
+        src="https://www.youtube.com/embed/pkMdNSEX9gM">
+        frameborder="0"
+        allowfullscreen>
         </iframe>
     </body>
+    <footer id="footer">
+        <div>
+            <ul id="footer_list"> 
+                <li class="footer_list_elem">Privacy</li>
+                <li class="footer_list_elem">Terms</li>
+                <li class="footer_list_elem">Contact</li>
+            </ul>
+            <div id="footer_text"><a href="https://github.com/khoakazy12345">Made by Thomas Nguyen</a></div>
+        </div>
+    </footer>
+    
 </html>
