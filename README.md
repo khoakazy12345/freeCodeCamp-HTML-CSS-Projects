@@ -19,8 +19,8 @@ Thus, I want to create this website as a thank-you to him.
 This is my replication of the Google Forms for my MOSCED Calculator Survey. 
 Besides the basic elements, I also tried to customized it better, with more features.
 ## Product Landing Page
-In progress
-## Tecnical Documentation Page
+This is my page introducing you to my favorite dishes in Ho Chi Minh City (Saigon). These are definitely the food I remember the most studying abroad here.
+## Technical Documentation Page
 In progress
 ## Personal Portfolio Webpage
 In progress
