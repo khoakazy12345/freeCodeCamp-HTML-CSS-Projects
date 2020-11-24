@@ -1,11 +1,99 @@
+html{
+    font-family: Nunito;
+}
+
 #navbar{
-    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 20%;
+    height: 100%;
+    border-right: solid; 
+    border-color: rgba(0, 22, 22, 0.4);
+    align-content: flex-start;
+    line-height: 1.5;
 }
 
-#navheader{
-    font-size: xx-large;
+#navbar header{
+    height: 3%;
+    padding: 15px 5px;
+    font-size: 130%;
+    text-indent: 15px;
 }
 
-.navlist{
-    font-size: 1000px;
+#navbar ul{
+    height: 91%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    overflow-y: scroll;
+}
+
+#navbar li{
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    list-style-type: none;
+    border-top: 1px solid;
+    padding: 15px 5px;
+    text-indent: 15px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+#main-doc{
+    position: fixed;
+    top: 0;
+    left: 20%;
+    height: 100%;
+    width: 80%;
+    overflow: scroll;
+}
+
+article{
+    display: block;
+}
+
+code {
+    display: block;
+    width: 99%;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    line-height: 1.5;
+    background-color: #a59999;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#main-doc section header{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#main-doc section p{
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+#main-doc section ul{
+    padding: 0px;
+}
+
+#main-doc section li{
+    position: relative;
+    padding-left: 0px;
+    text-indent: 68px;
+    white-space: pre;
+    list-style-position: inside;
+}
+@media (max_width: 650px)  {
 }
