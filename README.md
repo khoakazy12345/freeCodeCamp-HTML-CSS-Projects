@@ -21,6 +21,6 @@ Besides the basic elements, I also tried to customized it better, with more feat
 ## Product Landing Page
 This is my page introducing you to my favorite dishes in Ho Chi Minh City (Saigon). These are definitely the food I remember the most studying abroad here.
 ## Technical Documentation Page
-In progress
+I have done the page introducing beginners to Data Structures in Python. All information I had on this was from the Tuturial of https://docs.python.org/3/tutorial/. I hope that this would inspire other people to learn how to code.
 ## Personal Portfolio Webpage
 In progress
