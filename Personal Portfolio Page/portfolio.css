@@ -1,6 +1,7 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    background-color: #333;
 } 
 
 nav{
@@ -27,7 +28,7 @@ nav ul li{
     float: left;
     height: 100%;
     display: block;
-    padding: 20px 20px;
+    padding: 15px 20px;
 }
 
 .nav-list{
@@ -58,3 +59,48 @@ nav ul li:hover{
     font-size: 50px;
 }
 
+#projects{
+    background-image: url(project-background.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+#projects-section-header    {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: -8px;
+    font-size: 40px;
+    font-family: Merriweather;
+}
+
+#project-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
+    justify-items: start;
+    padding-left: 40px;
+}
+
+.project-items{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.img{
+    max-width: 300px;
+    border-left: thick solid;
+    border-top: medium solid;
+}
+
+.project-header{
+    display: flex;
+    color: white;
+    background-color:rgba(0,0,0,0.7);
+    width: 80%;
+    font-size: xx-large;
+    font-family: Merriweather;
+    justify-content: center;
+    align-items: center;
+}
