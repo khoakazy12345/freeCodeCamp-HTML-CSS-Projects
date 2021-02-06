@@ -23,4 +23,4 @@ This is my page introducing you to my favorite dishes in Ho Chi Minh City (Saigo
 ## Technical Documentation Page
 I have done the page introducing beginners to Data Structures in Python. All information I had on this was from the Tuturial of https://docs.python.org/3/tutorial/. I hope that this would inspire other people to learn how to code.
 ## Personal Portfolio Webpage
-This is my Portfolio Page where I list my introduction as well as all my projects. Hope you enjiy it!
+This is my Portfolio Page where I list my introduction as well as all my projects. Hope you enjoy it!
